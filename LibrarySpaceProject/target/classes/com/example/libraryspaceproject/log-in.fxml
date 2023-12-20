@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CD853F;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.libraryspaceproject.LogInController">
+   <children>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <StackPane layoutY="-2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Library Space" StackPane.alignment="TOP_LEFT">
+                     <StackPane.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </StackPane.margin>
+                     <font>
+                        <Font name="Dubai Regular" size="32.0" />
+                     </font>
+                  </Text>
+                  <VBox fx:id="vBoxP" alignment="CENTER" maxHeight="200.0" maxWidth="200.0" minHeight="200.0" minWidth="200.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <VBox fx:id="vBox" prefHeight="100.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Login:" />
+                              <TextField fx:id="login" minWidth="0.0" onAction="#loginTextAction" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="vBox1" prefHeight="100.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+                              <PasswordField fx:id="password" onAction="#passwordTextAction" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <CheckBox fx:id="rememberMe" mnemonicParsing="false" text="Remember Me">
+                           <VBox.margin>
+                              <Insets right="100.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <Button fx:id="forgotPassword" mnemonicParsing="false" onAction="#forgotPasswordAction" style="-fx-background-color: #CD853F;" text="Forgot Password">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button fx:id="logIn" mnemonicParsing="false" onAction="#logInAction" text="Log In">
+                           <VBox.margin>
+                              <Insets top="7.0" />
+                           </VBox.margin></Button>
+                     </children>
+                  </VBox>
+                  <Button fx:id="signUp" mnemonicParsing="false" onAction="#signUpAction" text="Sign Up" StackPane.alignment="TOP_RIGHT">
+                     <StackPane.margin>
+                        <Insets right="20.0" top="10.0" />
+                     </StackPane.margin>
+                  </Button>
+               </children>
+            </StackPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

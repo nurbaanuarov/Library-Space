@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorpane" onMouseEntered="#paneAction" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.libraryspaceproject.RoomBooking">
+    <children>
+        <Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFD700;">
+            <children>
+                <Circle fill="#a38700" layoutX="45.0" layoutY="83.0" radius="45.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa11c" height="110.0" layoutX="50.0" layoutY="64.0" stroke="BLACK" strokeType="INSIDE" width="197.0" />
+                <Circle fill="#a38700" layoutX="30.0" layoutY="38.0" radius="30.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Circle fill="#a38700" layoutX="103.0" layoutY="38.0" radius="45.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Circle fill="#a38700" layoutX="546.0" layoutY="346.0" radius="54.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Circle fill="#a38700" layoutX="524.0" layoutY="300.0" radius="45.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Circle fill="#a38700" layoutX="520.0" layoutY="69.0" radius="45.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Circle fill="#a38700" layoutX="481.0" layoutY="59.0" radius="51.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Circle fill="#a38700" layoutX="515.0" layoutY="113.0" radius="36.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa11c" height="110.0" layoutX="318.0" layoutY="64.0" stroke="#fffdfd" strokeType="INSIDE" width="197.0" />
+                <Circle fill="#a38700" layoutX="312.0" layoutY="59.0" radius="54.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Circle fill="#a38700" layoutX="222.0" layoutY="336.0" radius="36.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Circle fill="#a38700" layoutX="276.0" layoutY="300.0" radius="54.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Circle fill="#a38700" layoutX="330.0" layoutY="255.0" radius="54.0" stroke="#ffffff00" strokeType="INSIDE" />
+                <Polygon fill="#ffe71f" layoutX="50.0" layoutY="356.0" points="-50.0, 44.0, 173.0, 44.0, -50.0, -182.0" stroke="WHITE" strokeType="INSIDE" />
+                <ChoiceBox fx:id="dateChoiceBox" layoutX="74.0" layoutY="123.0" prefHeight="40.0" prefWidth="150.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa11c" height="226.0" layoutX="73.0" layoutY="174.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                <ChoiceBox fx:id="floorChoiceBox" layoutX="341.0" layoutY="123.0" prefHeight="40.0" prefWidth="150.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa11c" height="226.0" layoutX="341.0" layoutY="174.0" stroke="WHITE" strokeType="INSIDE" width="150.0" />
+                <Button fx:id="confirm" layoutX="234.0" layoutY="329.0" mnemonicParsing="false" onAction="#confirmButton" prefHeight="35.0" prefWidth="100.0" text="Confirm">
+                    <font>
+                        <Font name="Bell MT" size="20.0" />
+                    </font>
+                </Button>
+                <Text fx:id="datetxt" layoutX="79.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Date:">
+                    <font>
+                        <Font name="Bell MT" size="26.0" />
+                    </font>
+                </Text>
+                <Text fx:id="floortxt" layoutX="343.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Floor:">
+                    <font>
+                        <Font name="Bell MT" size="26.0" />
+                    </font>
+                </Text>
+                <Button fx:id="back" layoutX="14.0" layoutY="24.0" mnemonicParsing="false" onAction="#backButton" text="Back">
+                    <font>
+                        <Font name="Bell MT" size="17.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

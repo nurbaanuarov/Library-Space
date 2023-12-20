@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" onMouseEntered="#paneAction" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ROYALBLUE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.libraryspaceproject.FloorAdmin">
+   <children>
+      <StackPane layoutY="-2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="402.0" prefWidth="600.0">
+         <children>
+            <Pane minHeight="400.0" minWidth="600.0" prefHeight="402.0" prefWidth="600.0" style="-fx-background-color: #f2b655;">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9a6104" height="62.0" stroke="BLACK" strokeType="INSIDE" width="601.0" />
+                  <Text fill="WHITE" layoutX="10.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Floor Admin" wrappingWidth="185.126953125">
+                     <font>
+                        <Font name="Bell MT" size="30.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="floor" fill="WHITE" layoutX="453.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Floor: ">
+                     <font>
+                        <Font name="Bell MT" size="30.0" />
+                     </font>
+                  </Text>
+                  <Line endX="497.0" layoutX="103.0" layoutY="82.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="262.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="142.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="103.0" layoutY="122.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="103.0" layoutY="102.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="181.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="161.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="103.0" layoutY="242.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="221.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="201.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="282.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="302.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="322.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="342.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="362.0" startX="-103.0" />
+                  <Line endX="497.0" layoutX="102.0" layoutY="382.0" startX="-103.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="-117.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="-97.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="-77.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="-57.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="-37.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="-17.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="3.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="23.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="44.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="64.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="84.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="104.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="124.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="144.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="164.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="184.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="204.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="224.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="244.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="264.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="284.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="304.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="324.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="344.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="364.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="384.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="404.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="424.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+                  <Line endX="136.5" endY="310.0" layoutX="444.0" layoutY="93.0" startX="136.5" startY="-31.0" />
+               </children>
+            </Pane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorpane" onMouseEntered="#paneAction" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.libraryspaceproject.MyBooking">
+    <children>
+        <Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ffdd00;">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffb587" height="45.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffb587" height="45.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffb587" height="45.0" layoutY="213.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffb587" height="45.0" layoutY="70.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+                <Text layoutX="211.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Booking">
+                    <font>
+                        <Font name="Bell MT" size="35.0" />
+                    </font>
+                </Text>
+                <Text fx:id="date" layoutX="15.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date: ">
+                    <font>
+                        <Font name="Bell MT" size="30.0" />
+                    </font>
+                </Text>
+                <Text fx:id="floor" layoutX="15.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Floor: ">
+                    <font>
+                        <Font name="Bell MT" size="30.0" />
+                    </font>
+                </Text>
+                <Text fx:id="room" layoutX="15.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room: ">
+                    <font>
+                        <Font name="Bell MT" size="30.0" />
+                    </font>
+                </Text>
+                <Text fx:id="hours" layoutX="15.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hours: ">
+                    <font>
+                        <Font name="Bell MT" size="30.0" />
+                    </font>
+                </Text>
+                <Polygon fill="#a38700" layoutX="52.0" layoutY="10.0" points="-52.0, 40.0, 93.0, -10.0, -52.0, -10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                <Polygon fill="#a38700" layoutX="507.0" layoutY="10.0" points="93.0, 38.0, 93.0, -10.0, -52.0, -10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                <Polygon fill="#a38700" layoutX="52.0" layoutY="360.0" points="-52.0, 40.0, 84.0, 40.0, -52.0, -10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                <Polygon fill="#a38700" layoutX="507.0" layoutY="360.0" points="-52.0, 40.0, 93.0, 40.0, 93.0, -10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                <Button fx:id="cancel" layoutX="215.0" layoutY="336.0" mnemonicParsing="false" onAction="#cancelButton" text="Cancel Booking">
+                    <font>
+                        <Font name="Bell MT" size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="back" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButton" text="Back">
+                    <font>
+                        <Font name="Bell MT" size="20.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

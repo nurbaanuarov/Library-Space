@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" onMouseEntered="#paneAction" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CD853F;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.libraryspaceproject.SystemAdmin">
+   <children>
+      <StackPane layoutY="-2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="402.0" prefWidth="600.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-alignment: center; -fx-spacing: 20;">
+               <children>
+                  <Text fx:id="text" strokeType="OUTSIDE" strokeWidth="0.0" text="Library System" />
+                  <TextField fx:id="textField" maxWidth="100.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <Button fx:id="button" mnemonicParsing="false" onMouseClicked="#buttonClicked" style="-fx-border-insets: 50;" text="Ok">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

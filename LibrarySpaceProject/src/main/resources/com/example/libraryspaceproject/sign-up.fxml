@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.libraryspaceproject.signUpController">
+   <children>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CD853F;">
+         <children>
+            <StackPane layoutY="-2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Library Space" StackPane.alignment="TOP_LEFT">
+                     <StackPane.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </StackPane.margin>
+                     <font>
+                        <Font name="Dubai Regular" size="32.0" />
+                     </font>
+                  </Text>
+                  <VBox fx:id="vBoxP" alignment="CENTER" maxHeight="300.0" maxWidth="200.0" minHeight="300.0" minWidth="200.0" prefHeight="300.0" prefWidth="200.0">
+                     <children>
+                        <VBox fx:id="vBox1" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Login:" />
+                              <TextField fx:id="loginTextField" onAction="#loginTextAction" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="vBox2" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Email:" />
+                              <TextField fx:id="email" onAction="#emailTextAction" />
+                           </children>
+                        </VBox>
+                        <ToolBar prefHeight="20.0" prefWidth="200.0" style="-fx-background-color: TRANSPARENT;">
+                          <items>
+                              <CheckBox fx:id="maleCheckBox" lineSpacing="40.0" mnemonicParsing="false" onAction="#maleAction" text="Male" />
+                              <CheckBox fx:id="femaleCheckBox" mnemonicParsing="false" onAction="#femaleAction" text="Female" />
+                          </items>
+                        </ToolBar>
+                        <VBox fx:id="vBox3" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+                              <PasswordField fx:id="password" onAction="#passwordTextAction" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="vBox4" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Repeat Password:" />
+                              <PasswordField fx:id="reppassword" onAction="#reppasswordTextAction" />
+                           </children>
+                        </VBox>
+                        <Button fx:id="signUp" mnemonicParsing="false" onAction="#signUpAction" text="Sign Up" />
+                     </children>
+                  </VBox>
+                  <Button fx:id="logIn" mnemonicParsing="false" onAction="#logInAction" text="Log In" StackPane.alignment="TOP_RIGHT">
+                     <StackPane.margin>
+                        <Insets right="20.0" top="10.0" />
+                     </StackPane.margin>
+                  </Button>
+               </children>
+            </StackPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

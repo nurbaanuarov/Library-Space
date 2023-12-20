@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#paneAction" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.libraryspaceproject.UserLibrary">
+    <children>
+        <Pane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: D2B48C;">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffdc8b" height="400.0" layoutX="75.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                <Button fx:id="rooms" layoutX="100.0" layoutY="150.0" mnemonicParsing="false" onAction="#roomButton" prefHeight="50.0" prefWidth="100.0" text="Book Room" />
+                <Button fx:id="bookings" layoutX="100.0" layoutY="270.0" mnemonicParsing="false" onAction="#bookButton" prefHeight="50.0" prefWidth="100.0" text="My Bookings" />
+            </children>
+        </Pane>
+        <Pane layoutX="300.0" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #A0522D;">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffdc8b" height="100.0" layoutX="-76.0" layoutY="123.0" stroke="BLACK" strokeType="INSIDE" width="376.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffdc8b" height="400.0" layoutX="88.0" stroke="BLACK" strokeType="INSIDE" width="125.0" />
+                <Button fx:id="chairs" layoutX="100.0" layoutY="150.0" mnemonicParsing="false" onAction="#chairButton" prefHeight="50.0" prefWidth="100.0" text="Chairs" />
+                <ChoiceBox fx:id="floorChoiceBox" layoutX="100.0" layoutY="270.0" onMouseClicked="#floorAction" prefHeight="50.0" prefWidth="100.0" />
+                <Text layoutX="101.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Floor: ">
+                    <font>
+                        <Font name="Bell MT" size="18.0" />
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
